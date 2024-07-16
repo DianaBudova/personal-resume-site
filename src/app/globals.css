@@ -30,7 +30,7 @@ body {
   height: 100vh;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -40,10 +40,31 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* my styles */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.link-animation:after {
+  display: block;
+  content: '';
+  width: inherit;
+  border-bottom: solid 2px white;  
+  transform: scaleX(0);  
+  transition: transform 200ms ease-in-out;
+}
+
+.link-animation:hover:after { 
+  transform: scaleX(1);
 }
