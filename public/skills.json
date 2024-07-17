@@ -1,0 +1,30 @@
+[
+    {
+        "name": "HTML",
+        "level": "80"
+    },
+    {
+        "name": "CSS",
+        "level": "80"
+    },
+    {
+        "name": "JavaScript",
+        "level": "70"
+    },
+    {
+        "name": "React",
+        "level": "70"
+    },
+    {
+        "name": "Next.js",
+        "level": "70"
+    },
+    {
+        "name": "Tailwind",
+        "level": "70"
+    },
+    {
+        "name": "Bootstrap",
+        "level": "80"
+    }
+]

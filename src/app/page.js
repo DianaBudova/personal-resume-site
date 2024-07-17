@@ -1,11 +1,12 @@
 "use client";
 
 import { Inter } from "next/font/google";
-import ContactMeModal from "./modals/contact-me/modal";
-import ProjectsComponent from "./projects/page.js";
 import Link from "next/link";
 import { useState } from "react";
+import ContactMeModal from "./modals/contact-me/modal";
 import MeComponent from "./me/page";
+import SkillsComponent from "./skills/page";
+import ProjectsComponent from "./projects/page.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function BodyPage() {
                         <ContactMeModal openModal={openModal} setModal={setModal} />
                     )}
                     <MeComponent />
+                    <SkillsComponent />
                     <ProjectsComponent />
                 </div>
             </body>
