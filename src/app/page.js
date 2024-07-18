@@ -19,7 +19,7 @@ export default function BodyPage() {
     return (
         <>
             <body className={inter.className}>
-                <nav className="text-md sm:text-lg md:text-xl p-4 bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm">
+                <nav className="sticky top-0 text-md sm:text-lg md:text-xl p-4 bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm shadow-xl">
                     <ul className="px-7 sm:px-10 md:px-14 flex justify-between">
                         <li className="flex items-center">
                             <Link href="/" className="link-animation">
@@ -41,9 +41,7 @@ export default function BodyPage() {
                     </ul>
                 </nav>
                 <div className="px-7 sm:px-10 md:px-14 py-7">
-                    {openModal && (
-                        <ContactMeModal openModal={openModal} setModal={setModal} />
-                    )}
+                    <ContactMeModal openModal={openModal} setModal={setModal} />
                     <MeComponent />
                     <SkillsComponent />
                     <ProjectsComponent />

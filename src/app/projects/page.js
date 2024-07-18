@@ -12,7 +12,7 @@ const ProjectsComponent = () => {
 
     return (
         <>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center my-7">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center mb-7 mt-14">
                 Projects
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -31,7 +31,7 @@ const ProjectsComponent = () => {
                             <p>
                                 <a
                                     href={project.url}
-                                    className="link-animation text-green-500 font-bold after:border-green-600"
+                                    className="link-animation text-lg text-green-500 after:border-green-500"
                                 >
                                     <span>GitHub</span>
                                 </a>

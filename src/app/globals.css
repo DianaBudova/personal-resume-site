@@ -16,12 +16,23 @@
   }
 }
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* my styles */
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(-45deg, #333333, #555555, #444444, #333333);
-  background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 100vh;
 }
 
 /* @keyframes gradient {
@@ -36,13 +47,6 @@ body {
   }
 } */
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* my styles */
 body * {
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
@@ -53,7 +57,6 @@ a {
   display: inline-block;
   text-decoration: none;
   color: black;
-  font-family: sans-serif;
 }
 
 .link-animation:after {
