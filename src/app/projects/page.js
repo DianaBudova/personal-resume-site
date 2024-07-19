@@ -12,7 +12,7 @@ const ProjectsComponent = () => {
 
     return (
         <>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center mb-7 mt-14">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold mb-7 mt-14">
                 Projects
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

@@ -23,7 +23,7 @@ export default function BodyPage() {
                     <ul className="px-7 sm:px-10 md:px-14 flex justify-between">
                         <li className="flex items-center">
                             <Link href="/" className="link-animation">
-                                <span className="cursor-pointer text-white">
+                                <span className="cursor-pointer text-white font-semibold">
                                     Diana Budova
                                 </span>
                             </Link>
