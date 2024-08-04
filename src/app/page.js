@@ -23,18 +23,56 @@ export default function BodyPage() {
                     <ul className="px-7 sm:px-10 md:px-14 flex justify-between">
                         <li className="flex items-center">
                             <Link href="/" className="link-animation">
-                                <span className="cursor-pointer text-white font-semibold">
+                                <span className="cursor-pointer text-white">
                                     Diana Budova
                                 </span>
                             </Link>
                         </li>
-                        <li>
+                        <li className="flex items-center space-x-3">
+                            <form
+                                action="https://www.linkedin.com/in/diana-budova-2690472b7/"
+                                target="_blank"
+                            >
+                                <button
+                                    onClick={handleModal}
+                                    className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-white transition duration-300 ease-in-out"
+                                >
+                                    <span className="px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                        <img
+                                            src="images/social-media/linkedin.svg"
+                                            alt="LinkedIn"
+                                        />
+                                    </span>
+                                </button>
+                            </form>
+                            <form
+                                action="https://github.com/DianaBudova"
+                                target="_blank"
+                            >
+                                <button
+                                    onClick={handleModal}
+                                    className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-white transition duration-300 ease-in-out"
+                                >
+                                    <span className="px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                        <img
+                                            src="images/social-media/github.svg"
+                                            alt="GitHub"
+                                        />
+                                    </span>
+                                </button>
+                            </form>
                             <button
                                 onClick={handleModal}
-                                className="flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 transition duration-300 ease-in-out"
+                                className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-white transition duration-300 ease-in-out"
                             >
-                                <span className="px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                <span className="hidden sm:block px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
                                     Contact Me
+                                </span>
+                                <span className="block sm:hidden px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                    <img
+                                        src="images/telephone-call.svg"
+                                        alt="Contact Me"
+                                    />
                                 </span>
                             </button>
                         </li>

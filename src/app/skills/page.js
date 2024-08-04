@@ -16,21 +16,44 @@ const SkillsComponent = () => {
                 Skills
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                {skills.map((skill, index) => (
-                    <div
-                        key={index}
-                        className="flex flex-col justify-between bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4"
-                    >
-                        <div className="mb-5">
-                            <h2 className="text-2xl font-black text-center text-zinc-200 mb-2">
-                                {skill.name}
-                            </h2>
-                            <p className="text-zinc-250">
-                                {skill.level}
-                            </p>
+                {skills.map((category, index) => {
+                    const categoryName = Object.keys(category)[0];
+                    return (
+                        <div
+                            key={index}
+                            className="bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4 transition-shadow duration-300"
+                        >
+                            <h3 className="text-xl font-semibold mb-4">
+                                {categoryName}
+                            </h3>
+                            <ul className="space-y-2">
+                                {category[categoryName].map((skill, idx) => (
+                                    <li
+                                        key={idx}
+                                        className="flex justify-between p-1"
+                                    >
+                                        <span className="font-medium text-zinc-200">
+                                            {skill.name}
+                                        </span>
+                                        <div className="flex space-x-1">
+                                            {Array.from(
+                                                { length: skill.level },
+                                                (_, index) => (
+                                                    <img
+                                                        key={index}
+                                                        src="images/star.svg"
+                                                        alt="star"
+                                                        className="w-5 h-5"
+                                                    />
+                                                )
+                                            )}
+                                        </div>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </>
     );

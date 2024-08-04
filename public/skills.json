@@ -1,30 +1,61 @@
 [
     {
-        "name": "HTML",
-        "level": "80"
+        "Frontend": [
+            { "name": "HTML", "level": "5" },
+            { "name": "CSS", "level": "5" },
+            { "name": "React.js", "level": "5" },
+            { "name": "JavaScript", "level": "4" },
+            { "name": "Next.js", "level": "4" },
+            { "name": "Bootstrap", "level": "4" },
+            { "name": "Tailwind", "level": "3" }
+        ]
     },
     {
-        "name": "CSS",
-        "level": "80"
+        "Backend": [
+            { "name": "Laravel", "level": "5" },
+            { "name": "MySQL", "level": "5" },
+            { "name": "MSSQL", "level": "5" },
+            { "name": "PHP", "level": "4" },
+            { "name": "Node.js", "level": "4" },
+            { "name": "C++", "level": "3" },
+            { "name": "C#", "level": "3" }
+        ]
     },
     {
-        "name": "JavaScript",
-        "level": "70"
+        "Development": [
+            { "name": "Git", "level": "4" },
+            { "name": "Postman", "level": "4" },
+            { "name": "Linux", "level": "3" },
+            { "name": "Docker", "level": "2" }
+        ]
     },
     {
-        "name": "React",
-        "level": "70"
+        "E-commerce & CMS": [
+            { "name": "OpenCart", "level": "4" },
+            { "name": "WordPress", "level": "3" }
+        ]
     },
     {
-        "name": "Next.js",
-        "level": "70"
+        "Methodologies": [
+            { "name": "Waterfall", "level": "4" },
+            { "name": "Scrum", "level": "3" }
+        ]
     },
     {
-        "name": "Tailwind",
-        "level": "70"
+        "Principles": [
+            { "name": "REST", "level": "5" },
+            { "name": "SOLID", "level": "5" },
+            { "name": "MVVM", "level": "5" },
+            { "name": "MVC", "level": "5" },
+            { "name": "MVP", "level": "4" },
+            { "name": "Design Patterns", "level": "3" }
+        ]
     },
     {
-        "name": "Bootstrap",
-        "level": "80"
+        "Languages": [
+            { "name": "Ukrainian", "level": "5" },
+            { "name": "Russian", "level": "5" },
+            { "name": "English", "level": "3" }
+        ]
     }
 ]
