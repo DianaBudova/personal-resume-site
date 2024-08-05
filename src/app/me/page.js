@@ -1,7 +1,7 @@
 const MeComponent = () => {
     return (
         <>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold mb-7">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-semibold mb-7">
                 Diana Budova (Fullstack Developer)
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8">
