@@ -5,11 +5,11 @@ const MeComponent = () => {
                 Diana Budova (Fullstack Developer)
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8">
-                <div className="col-span-1">
+                <div className="col-span-1 flex justify-center sm:justify-start">
                     <img
                         src="images/Me.png"
                         alt="Me"
-                        className="rounded-lg shadow-md object-cover"
+                        className="rounded-lg w-3/4 sm:w-full shadow-md object-cover"
                     />
                 </div>
                 <div className="col-span-2">
@@ -20,32 +20,29 @@ const MeComponent = () => {
                         Maintain numerous repositories on GitHub, showcasing a
                         wide range of projects and technical skills.
                     </p>
-                    <div className="mt-7">
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl text-center font-semibold mb-7">
-                            Connect with me
+                    <div className="mt-5">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-7">
+                            Education
                         </h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-center">
-                            <div className="flex flex-col items-center bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div className="flex flex-col bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl mb-3">
-                                    Email
+                                    SOFTWARE ENGINEERING BACHELOR DEGREE
                                 </h3>
-                                <p className="text-lg sm:text-xl md:text-xl text-zinc-200">
-                                    budovadiana@gmail.com
+                                <p className="text-lg sm:text-xl md:text-xl text-zinc-300">
+                                    NATIONAL AVIATION UNIVERSITY, KYIV, UKRAINE
+                                </p>
+                                <p className="text-lg sm:text-xl md:text-xl text-zinc-100">
+                                    SEPT. 2023 – JUN. 2027
                                 </p>
                             </div>
-                            <div className="flex flex-col items-center bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4">
+                            <div className="flex flex-col bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl mb-3">
-                                    Phone
+                                    IT STEP ACADEMY
                                 </h3>
-                                <p className="text-lg sm:text-xl md:text-xl text-zinc-200">
-                                    +38 096 936 07 81
+                                <p className="text-lg sm:text-xl md:text-xl text-zinc-100">
+                                    DEC. 2021 – JUN. 2024
                                 </p>
-                            </div>
-                            <div className="flex flex-col items-center p-6 space-y-4">
-                                
-                            </div>
-                            <div className="flex flex-col items-center p-6 space-y-4">
-                                
                             </div>
                         </div>
                     </div>
