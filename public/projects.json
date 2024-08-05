@@ -1,11 +1,10 @@
 [
     {
-        "title": "Project 1",
-        "description": "Project 1 description",
-        "url": "https://example.com/project1",
+        "title": "VEN Studio",
+        "description": "VEN Studio is a CRM solution developed using Laravel, designed specifically for managing operations and client relationships in a dancing studio.",
         "images": [
-            "/images/IrregularVerbs.png",
-            "/images/IrregularVerbsInverted.png"
+            "/images/projects/ven/ven_studio_1.png",
+            "/images/projects/ven/ven_studio_2.png"
         ]
     },
     {

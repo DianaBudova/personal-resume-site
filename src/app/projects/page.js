@@ -1,14 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 import projectsJSON from "../../../public/projects.json";
+import ImageSlider from "../slider.js";
 
 const ProjectsComponent = () => {
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-        setProjects(projectsJSON);
-    }, []);
+    const [projects, setProjects] = useState(projectsJSON || []);
 
     return (
         <>
@@ -29,20 +26,19 @@ const ProjectsComponent = () => {
                                 {project.description}
                             </p>
                             <p>
-                                <a
-                                    href={project.url}
-                                    className="link-animation text-lg text-green-500 after:border-green-500"
-                                >
-                                    <span>GitHub</span>
-                                </a>
+                                {project.url && (
+                                    <a
+                                        href={project.url}
+                                        target="_blank"
+                                        className="link-animation text-lg text-green-500 after:border-green-500"
+                                    >
+                                        <span>Link</span>
+                                    </a>
+                                )}
                             </p>
                         </div>
                         <div>
-                            <img
-                                src={project.images[0]}
-                                alt={project.title}
-                                className="rounded-lg"
-                            />
+                            <ImageSlider images={project.images}/>
                         </div>
                     </div>
                 ))}

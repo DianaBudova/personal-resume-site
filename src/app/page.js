@@ -82,7 +82,7 @@ export default function BodyPage() {
                         </li>
                     </ul>
                     <ul className="flex sm:hidden items-center justify-between px-7 sm:px-10 md:px-14">
-                        <li className="flex flex-col w-full items-end">
+                        <li className="flex flex-col w-full items-start">
                             <span className="text-md">+38 096 936 07 81</span>
                             <span className="text-md">budovadiana@gmail.com</span>
                         </li>
