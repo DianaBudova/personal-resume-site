@@ -23,7 +23,7 @@ export default function BodyPage() {
                     <ul className="px-7 sm:px-10 md:px-14 flex justify-between">
                         <li className="flex items-center">
                             <Link href="/" className="link-animation">
-                                <span className="cursor-pointer text-lg text-zinc-50">
+                                <span className="cursor-pointer text-lg sm:text-xl text-zinc-50">
                                     Diana Budova
                                 </span>
                             </Link>
@@ -86,7 +86,7 @@ export default function BodyPage() {
                         </li>
                     </ul>
                 </nav>
-                <div className="px-7 sm:px-10 md:px-14 py-7 space-y-14">
+                <div className="px-7 sm:px-10 md:px-14 py-7 space-y-10">
                     <ContactMeModal openModal={openModal} setModal={setModal} />
                     <MeComponent />
                     <SkillsComponent />

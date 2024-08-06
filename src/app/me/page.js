@@ -1,10 +1,10 @@
 const MeComponent = () => {
     return (
         <>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-semibold">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold">
                 Diana Budova (Fullstack Developer)
             </h1>
-            <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
                 <div className="col-span-1 flex justify-center sm:justify-start">
                     <img
                         src="images/Me.png"
@@ -42,7 +42,7 @@ const MeComponent = () => {
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-7">
                             Education
                         </h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <div className="flex flex-col bg-black bg-opacity-20 backdrop-filter rounded-lg shadow-md p-4">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl mb-3">
                                     SOFTWARE ENGINEERING BACHELOR DEGREE

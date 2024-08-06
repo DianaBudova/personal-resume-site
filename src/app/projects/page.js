@@ -5,14 +5,14 @@ import projectsJSON from "../../../public/projects.json";
 import ImageSlider from "../slider.js";
 
 const ProjectsComponent = () => {
-    const [projects, setProjects] = useState(projectsJSON || []);
+    const [projects] = useState(projectsJSON || []);
 
     return (
         <>
             <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold">
                 Projects
             </h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {projects.map((project, index) => (
                     <div
                         key={index}
@@ -32,7 +32,7 @@ const ProjectsComponent = () => {
                                         target="_blank"
                                         className="link-animation text-lg text-green-500 after:border-green-500"
                                     >
-                                        <span>Link</span>
+                                        <span>Site</span>
                                     </a>
                                 )}
                             </p>
