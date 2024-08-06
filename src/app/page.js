@@ -19,7 +19,7 @@ export default function BodyPage() {
     return (
         <>
             <body className={inter.className}>
-                <nav className="sticky top-0 text-md sm:text-lg md:text-xl p-4 bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm shadow-xl space-y-3">
+                <nav className="sticky top-0 text-md sm:text-lg md:text-xl p-4 bg-neutral-800 sm:bg-black sm:bg-opacity-20 backdrop-filter backdrop-blur-sm shadow-xl space-y-3">
                     <ul className="px-7 sm:px-10 md:px-14 flex justify-between">
                         <li className="flex items-center">
                             <Link href="/" className="link-animation">
