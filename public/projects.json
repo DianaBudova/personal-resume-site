@@ -10,36 +10,9 @@
     {
         "title": "Promo Trans",
         "description": "Project 2 description",
-        "url": "https://example.com/project2",
+        "url": "https://promo-trans.com.ua",
         "images": [
-            "/images/IrregularVerbs.png",
-            "/images/IrregularVerbsInverted.png"
-        ]
-    },
-    {
-        "title": "Project 1",
-        "description": "Project 1 description",
-        "url": "https://example.com/project1",
-        "images": [
-            "/images/IrregularVerbs.png",
-            "/images/IrregularVerbsInverted.png"
-        ]
-    },
-    {
-        "title": "Project 1",
-        "description": "Project 1 description",
-        "url": "https://example.com/project1",
-        "images": [
-            "/images/IrregularVerbs.png",
-            "/images/IrregularVerbsInverted.png"
-        ]
-    },
-    {
-        "title": "Project 1",
-        "description": "Project 1 description",
-        "url": "https://example.com/project1",
-        "images": [
-            "/images/IrregularVerbs.png"
+            "/images/projects/promo-trans/promo_trans_1.png"
         ]
     }
 ]
