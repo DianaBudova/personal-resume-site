@@ -2,8 +2,8 @@ import "./globals.css";
 import Head from "next/head";
 
 export const metadata = {
-    title: "Diana Budova's Resume",
-    description: "Diana Budova's resume with Next.js",
+    title: "Diana Budova's CV",
+    description: "Diana Budova's CV with Next.js",
 };
 
 export default function RootLayout({ children }) {
