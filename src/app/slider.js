@@ -1,4 +1,5 @@
 import {Navigation} from 'swiper/modules';
+import Image from 'next/image'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,6 +18,7 @@ export default function ImageSlider({images}) {
             {images.map((url, index) => (
                 <SwiperSlide key={index}>
                     <img src={url} alt={`Slide ${index + 1}`}/>
+                    <Image src={url} alt={`Slide ${index + 1}`} width={200} height={200}></Image>
                 </SwiperSlide>
             ))}
         </Swiper>
