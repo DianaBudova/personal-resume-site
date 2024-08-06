@@ -12,7 +12,7 @@ const SkillsComponent = () => {
 
     return (
         <>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold mb-7 mt-14">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold">
                 Skills
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ const SkillsComponent = () => {
                                                         key={index}
                                                         src="images/star.svg"
                                                         alt="star"
-                                                        className="w-5 h-5"
+                                                        className="w-4 h-4 sm:w-3.5 sm:h-3.5 lg:w-4 lg:h-4"
                                                     />
                                                 )
                                             )}

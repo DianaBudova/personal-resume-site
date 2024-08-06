@@ -38,7 +38,6 @@ export default function BodyPage() {
                                 target="_blank"
                             >
                                 <button
-                                    onClick={handleModal}
                                     className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-zinc-50 transition duration-300 ease-in-out"
                                 >
                                     <span className="px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
@@ -54,7 +53,6 @@ export default function BodyPage() {
                                 target="_blank"
                             >
                                 <button
-                                    onClick={handleModal}
                                     className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-zinc-50 transition duration-300 ease-in-out"
                                 >
                                     <span className="px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
@@ -88,7 +86,7 @@ export default function BodyPage() {
                         </li>
                     </ul>
                 </nav>
-                <div className="px-7 sm:px-10 md:px-14 py-7">
+                <div className="px-7 sm:px-10 md:px-14 py-7 space-y-14">
                     <ContactMeModal openModal={openModal} setModal={setModal} />
                     <MeComponent />
                     <SkillsComponent />
