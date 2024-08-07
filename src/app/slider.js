@@ -9,7 +9,7 @@ export default function ImageSlider({images}) {
             style={{
                 "--swiper-navigation-color": "#1a9c4a",
             }}
-            className="rounded-lg transition-transform duration-300 hover:scale-105"
+            className="rounded-lg"
             modules={[Navigation]}
             slidesPerView={1}
             navigation
