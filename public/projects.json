@@ -3,8 +3,8 @@
         "title": "VEN Studio",
         "description": "VEN Studio is a CRM solution developed using Laravel, designed specifically for managing operations and client relationships in a dancing studio.",
         "images": [
-            "/images/projects/ven/ven_studio_1.png",
-            "/images/projects/ven/ven_studio_2.png"
+            "images/projects/ven/ven_studio_1.png",
+            "images/projects/ven/ven_studio_2.png"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "description": "Website for freight transport in Ukraine. I was not fully involved in the development, but optimized the site, translated its content, and made various enhancements to improve functionality and user experience.",
         "url": "https://promo-trans.com.ua",
         "images": [
-            "/images/projects/promo-trans/promo_trans_1.png"
+            "images/projects/promo-trans/promo_trans_1.png"
         ]
     },
     {
@@ -20,8 +20,8 @@
         "description": "Osanclinic is a medical center where I participated in the improvement and optimization of the website, including improving its functionality and performance.",
         "url": "https://osanclinic.com.ua/",
         "images": [
-            "/images/projects/osan-clinic/osan_clinic_1.png",
-            "/images/projects/osan-clinic/osan_clinic_2.png"
+            "images/projects/osan-clinic/osan_clinic_1.png",
+            "images/projects/osan-clinic/osan_clinic_2.png"
         ]
     }
 ]
