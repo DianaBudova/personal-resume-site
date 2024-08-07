@@ -11,11 +11,6 @@ import ProjectsComponent from "./projects/page.js";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function BodyPage() {
-    const [openModal, setModal] = useState(false);
-    const handleModal = () => {
-        setModal(!openModal);
-    };
-
     return (
         <>
             <body className={inter.className}>
@@ -64,16 +59,17 @@ export default function BodyPage() {
                                 </button>
                             </form>
                             <button
-                                onClick={handleModal}
-                                className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-400 dark:text-zinc-50 transition duration-300 ease-in-out"
+                                className="flex items-center justify-center p-0.5 overflow-hidden text-zinc-900 rounded-lg group bg-gradient-to-br from-red-700 to-red-400 dark:text-zinc-50 transition duration-300 ease-in-out"
                             >
-                                <span className="hidden md:block px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
-                                    Contact Me
+                                <span
+                                    className="hidden md:block px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                    Get PDF
                                 </span>
-                                <span className="block md:hidden px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
+                                <span
+                                    className="block md:hidden px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-zinc-900 rounded-md group-hover:bg-opacity-0">
                                     <img
-                                        src="images/telephone-call.svg"
-                                        alt="Contact Me"
+                                        src="images/pdf.svg"
+                                        alt="Get PDF"
                                     />
                                 </span>
                             </button>
@@ -87,7 +83,6 @@ export default function BodyPage() {
                     </ul>
                 </nav>
                 <div className="px-7 sm:px-10 md:px-14 py-7 space-y-10">
-                    <ContactMeModal openModal={openModal} setModal={setModal} />
                     <MeComponent />
                     <SkillsComponent />
                     <ProjectsComponent />
