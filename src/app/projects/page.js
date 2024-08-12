@@ -37,17 +37,6 @@ const ProjectsComponent = () => {
                             <p className="text-zinc-250">
                                 {project.description}
                             </p>
-                            <p>
-                                {project.url && (
-                                    <a
-                                        href={project.url}
-                                        target="_blank"
-                                        className="link-animation text-lg text-green-500 after:border-green-500"
-                                    >
-                                        <span>Site</span>
-                                    </a>
-                                )}
-                            </p>
                         </div>
                         <div>
                             <ImageSlider images={project.images}/>
